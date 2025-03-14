@@ -37,7 +37,7 @@ int main() {
     printf("Código da carta EX(A01): ");
     scanf("%s", codigo1);
 
-    getchar(); // Limpa o buffer (\n) para evitar problemas na leitura da string
+    getchar(); // Limpa o buffer (\n)
 
     printf("Nome da cidade: ");
     scanf("%[^\n]", cidade1);
@@ -67,7 +67,7 @@ int main() {
     printf("Código da carta EX(A01): ");
     scanf("%s", codigo2);
 
-    getchar(); // Limpa o buffer para evitar problemas na leitura da string
+    getchar(); 
 
     printf("Nome da cidade: ");
     scanf("%[^\n]", cidade2);
